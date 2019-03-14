@@ -1,9 +1,16 @@
 <?php
 /* @var $this yii\web\View */
 ?>
-<h1>prodi/index</h1>
+<h1>Program Studi STT Terpadu Nurul Fikri</h1>
 
-<p>
-    You may change the content of this page by modifying
-    the file <code><?= __FILE__; ?></code>.
-</p>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<ol>
+				<li class="list-item">
+					Sistem Informasi
+				</li>
+				<li class="list-item">
+					Teknik Informatika
+				</li>
+			</ol>
