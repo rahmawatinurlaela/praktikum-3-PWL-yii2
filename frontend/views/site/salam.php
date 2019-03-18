@@ -1,1 +1,5 @@
-<h1>Assalamu'alaikum</h1>
+<h1>Salaam</h1>
+
+<?= $ucapanSalam?>
+<br>
+<?= $nama?>
