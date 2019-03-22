@@ -2,68 +2,45 @@
 /* @var $this yii\web\View */
 ?>
 <h1>Mahasiswa STT Terpadu Nurul Fikri</h1>
+<br>
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			<h3>
-				Mahasiswa Sistem Informasi
-			</h3>
-			<ol>
-				<li class="list-item">
-					Lorem ipsum dolor sit amet
-				</li>
-				<li class="list-item">
-					Consectetur adipiscing elit
-				</li>
-				<li class="list-item">
-					Integer molestie lorem at massa
-				</li>
-				<li class="list-item">
-					Facilisis in pretium nisl aliquet
-				</li>
-				<li class="list-item">
-					Nulla volutpat aliquam velit
-				</li>
-				<li class="list-item">
-					Faucibus porta lacus fringilla vel
-				</li>
-				<li class="list-item">
-					Aenean sit amet erat nunc
-				</li>
-				<li class="list-item">
-					Eget porttitor lorem
-				</li>
-			</ol>
-			<h3>
-				Mahasiswa Teknik Informatika
-			</h3>
-			<ol>
-				<li class="list-item">
-					Lorem ipsum dolor sit amet
-				</li>
-				<li class="list-item">
-					Consectetur adipiscing elit
-				</li>
-				<li class="list-item">
-					Integer molestie lorem at massa
-				</li>
-				<li class="list-item">
-					Facilisis in pretium nisl aliquet
-				</li>
-				<li class="list-item">
-					Nulla volutpat aliquam velit
-				</li>
-				<li class="list-item">
-					Faucibus porta lacus fringilla vel
-				</li>
-				<li class="list-item">
-					Aenean sit amet erat nunc
-				</li>
-				<li class="list-item">
-					Eget porttitor lorem
-				</li>
-			</ol>
-		</div>
+<div class = 'container-fluid'>
+	<div class = "row">
+		<table class ="table table-hover table-sm table-bordered">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nama Mahasiswa</th>
+					<th>Program Studi</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td><?=$mhs1?></td>
+					<td><?=$si?></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><?=$mhs2?></td>
+					<td><?=$ti?></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td><?=$mhs3?></td>
+					<td><?=$si?></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td><?=$mhs4?></td>
+					<td><?=$ti?></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td><?=$mhs5?></td>
+					<td><?=$si?></td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </div>
